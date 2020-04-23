@@ -6,13 +6,13 @@
 # Step 1:
 # Create your own docker ID here
 # dockerpath=<your docker ID/path>
-dockerpath="a7mecl/abulkhair"
+dockerpath="cezannecam/flasksklearn"
 
 # Step 2:  
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-    docker image tag flasklearn $dockerpath
+    docker image tag flasksklearn $dockerpath
 
 # Step 3:
 # Push Image
