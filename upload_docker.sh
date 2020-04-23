@@ -6,7 +6,7 @@
 # Step 1:
 # Create your own docker ID here
 # dockerpath=<your docker ID/path>
-dockerpath="cezannecam/flasksklearn"
+dockerpath="a7mecl/abulkhair"
 
 # Step 2:  
 # Authenticate & Tag
