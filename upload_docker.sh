@@ -12,7 +12,7 @@ dockerpath="a7mecl/abulkhair"
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-    docker image tag flasksklearn $dockerpath
+    docker image tag micro $dockerpath
 
 # Step 3:
 # Push Image
